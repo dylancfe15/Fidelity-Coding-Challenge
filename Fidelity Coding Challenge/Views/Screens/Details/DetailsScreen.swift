@@ -24,7 +24,7 @@ struct DetailsScreen: View {
     var body: some View {
         VStack {
             List(viewModel.tweets, id: \.status_id) { tweet in
-                VStack {
+                VStack(alignment: .leading, spacing: 8) {
                     HStack {
                         Image(systemName: "person.fill")
                             .resizable()
@@ -44,6 +44,12 @@ struct DetailsScreen: View {
 
                     Text(tweet.status ?? "N/A")
                         .font(.system(size: 12))
+
+                    if let likes = tweet.like_count {
+                        Text("\(likes) Likes")
+                            .font(.caption)
+                            .foregroundColor(.gray)
+                    }
                 }
             }
         }
