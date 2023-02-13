@@ -16,6 +16,10 @@
 		D56767CD2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */; };
 		D56767D72999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767D62999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift */; };
 		D56767D92999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767D82999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift */; };
+		D56767E72999D80000C6AEAE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767E62999D80000C6AEAE /* Color+Extension.swift */; };
+		D56767ED2999D90A00C6AEAE /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767EC2999D90A00C6AEAE /* WelcomeScreen.swift */; };
+		D56767F02999DEF900C6AEAE /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767EF2999DEF900C6AEAE /* PrimaryButton.swift */; };
+		D56767F52999E72100C6AEAE /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767F42999E72100C6AEAE /* ListScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidelity Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56767D62999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
 		D56767D82999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D56767E62999D80000C6AEAE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D56767EC2999D90A00C6AEAE /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		D56767EF2999DEF900C6AEAE /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D56767F42999E72100C6AEAE /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 		D56767B52999D6F600C6AEAE /* Fidelity Coding Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				D56767BA2999D6F800C6AEAE /* Assets.xcassets */,
 				D56767B62999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift */,
 				D56767B82999D6F600C6AEAE /* ContentView.swift */,
-				D56767BA2999D6F800C6AEAE /* Assets.xcassets */,
 				D56767BF2999D6F800C6AEAE /* Persistence.swift */,
 				D56767C12999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld */,
+				D56767E52999D7E900C6AEAE /* Models */,
+				D56767E92999D8E100C6AEAE /* Views */,
+				D56767EA2999D8EE00C6AEAE /* ViewModels */,
+				D56767E82999D8B100C6AEAE /* Extensions */,
 				D56767BC2999D6F800C6AEAE /* Preview Content */,
 			);
 			path = "Fidelity Coding Challenge";
@@ -131,6 +143,70 @@
 				D56767D82999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "Fidelity Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		D56767E52999D7E900C6AEAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D56767E82999D8B100C6AEAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D56767E62999D80000C6AEAE /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D56767E92999D8E100C6AEAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D56767EE2999DEBD00C6AEAE /* ReusableViews */,
+				D56767EB2999D8FC00C6AEAE /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D56767EA2999D8EE00C6AEAE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D56767EB2999D8FC00C6AEAE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D56767F22999E70600C6AEAE /* Welcome */,
+				D56767F32999E71000C6AEAE /* List */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D56767EE2999DEBD00C6AEAE /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				D56767EF2999DEF900C6AEAE /* PrimaryButton.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		D56767F22999E70600C6AEAE /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				D56767EC2999D90A00C6AEAE /* WelcomeScreen.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		D56767F32999E71000C6AEAE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D56767F42999E72100C6AEAE /* ListScreen.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +339,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D56767ED2999D90A00C6AEAE /* WelcomeScreen.swift in Sources */,
 				D56767C02999D6F800C6AEAE /* Persistence.swift in Sources */,
+				D56767E72999D80000C6AEAE /* Color+Extension.swift in Sources */,
 				D56767C32999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld in Sources */,
+				D56767F02999DEF900C6AEAE /* PrimaryButton.swift in Sources */,
 				D56767B92999D6F600C6AEAE /* ContentView.swift in Sources */,
 				D56767B72999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift in Sources */,
+				D56767F52999E72100C6AEAE /* ListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
