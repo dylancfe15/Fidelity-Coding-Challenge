@@ -1,0 +1,11 @@
+//
+//  Configuration.xcconfig
+//  Fidelity Coding Challenge
+//
+//  Created by Difeng Chen on 2/13/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = api.coinpaprika.com/v1/

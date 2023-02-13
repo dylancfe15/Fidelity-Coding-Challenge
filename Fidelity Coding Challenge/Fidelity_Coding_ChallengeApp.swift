@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct Fidelity_Coding_ChallengeApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistenceController = CoreDataManager.shared
 
     var body: some Scene {
         WindowGroup {
