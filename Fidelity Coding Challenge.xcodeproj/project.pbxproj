@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D56767B72999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767B62999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift */; };
+		D56767B92999D6F600C6AEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767B82999D6F600C6AEAE /* ContentView.swift */; };
+		D56767BB2999D6F800C6AEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56767BA2999D6F800C6AEAE /* Assets.xcassets */; };
+		D56767BE2999D6F800C6AEAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56767BD2999D6F800C6AEAE /* Preview Assets.xcassets */; };
+		D56767C02999D6F800C6AEAE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767BF2999D6F800C6AEAE /* Persistence.swift */; };
+		D56767C32999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D56767C12999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld */; };
+		D56767CD2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */; };
+		D56767D72999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767D62999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift */; };
+		D56767D92999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767D82999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D56767C92999D6F900C6AEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56767AB2999D6F600C6AEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56767B22999D6F600C6AEAE;
+			remoteInfo = "Fidelity Coding Challenge";
+		};
+		D56767D32999D6F900C6AEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56767AB2999D6F600C6AEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56767B22999D6F600C6AEAE;
+			remoteInfo = "Fidelity Coding Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D56767B32999D6F600C6AEAE /* Fidelity Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fidelity Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56767B62999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeApp.swift; sourceTree = "<group>"; };
+		D56767B82999D6F600C6AEAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D56767BA2999D6F800C6AEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D56767BD2999D6F800C6AEAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D56767BF2999D6F800C6AEAE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D56767C22999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fidelity_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		D56767C82999D6F900C6AEAE /* Fidelity Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidelity Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
+		D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidelity Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56767D62999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeUITests.swift; sourceTree = "<group>"; };
+		D56767D82999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D56767B02999D6F600C6AEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56767C52999D6F900C6AEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56767CF2999D6F900C6AEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D56767AA2999D6F600C6AEAE = {
+			isa = PBXGroup;
+			children = (
+				D56767B52999D6F600C6AEAE /* Fidelity Coding Challenge */,
+				D56767CB2999D6F900C6AEAE /* Fidelity Coding ChallengeTests */,
+				D56767D52999D6F900C6AEAE /* Fidelity Coding ChallengeUITests */,
+				D56767B42999D6F600C6AEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D56767B42999D6F600C6AEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56767B32999D6F600C6AEAE /* Fidelity Coding Challenge.app */,
+				D56767C82999D6F900C6AEAE /* Fidelity Coding ChallengeTests.xctest */,
+				D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D56767B52999D6F600C6AEAE /* Fidelity Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				D56767B62999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift */,
+				D56767B82999D6F600C6AEAE /* ContentView.swift */,
+				D56767BA2999D6F800C6AEAE /* Assets.xcassets */,
+				D56767BF2999D6F800C6AEAE /* Persistence.swift */,
+				D56767C12999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld */,
+				D56767BC2999D6F800C6AEAE /* Preview Content */,
+			);
+			path = "Fidelity Coding Challenge";
+			sourceTree = "<group>";
+		};
+		D56767BC2999D6F800C6AEAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D56767BD2999D6F800C6AEAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D56767CB2999D6F900C6AEAE /* Fidelity Coding ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */,
+			);
+			path = "Fidelity Coding ChallengeTests";
+			sourceTree = "<group>";
+		};
+		D56767D52999D6F900C6AEAE /* Fidelity Coding ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D56767D62999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift */,
+				D56767D82999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "Fidelity Coding ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56767DC2999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding Challenge" */;
+			buildPhases = (
+				D56767AF2999D6F600C6AEAE /* Sources */,
+				D56767B02999D6F600C6AEAE /* Frameworks */,
+				D56767B12999D6F600C6AEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fidelity Coding Challenge";
+			productName = "Fidelity Coding Challenge";
+			productReference = D56767B32999D6F600C6AEAE /* Fidelity Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D56767C72999D6F900C6AEAE /* Fidelity Coding ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56767DF2999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding ChallengeTests" */;
+			buildPhases = (
+				D56767C42999D6F900C6AEAE /* Sources */,
+				D56767C52999D6F900C6AEAE /* Frameworks */,
+				D56767C62999D6F900C6AEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56767CA2999D6F900C6AEAE /* PBXTargetDependency */,
+			);
+			name = "Fidelity Coding ChallengeTests";
+			productName = "Fidelity Coding ChallengeTests";
+			productReference = D56767C82999D6F900C6AEAE /* Fidelity Coding ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D56767D12999D6F900C6AEAE /* Fidelity Coding ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56767E22999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding ChallengeUITests" */;
+			buildPhases = (
+				D56767CE2999D6F900C6AEAE /* Sources */,
+				D56767CF2999D6F900C6AEAE /* Frameworks */,
+				D56767D02999D6F900C6AEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56767D42999D6F900C6AEAE /* PBXTargetDependency */,
+			);
+			name = "Fidelity Coding ChallengeUITests";
+			productName = "Fidelity Coding ChallengeUITests";
+			productReference = D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D56767AB2999D6F600C6AEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D56767B22999D6F600C6AEAE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					D56767C72999D6F900C6AEAE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D56767B22999D6F600C6AEAE;
+					};
+					D56767D12999D6F900C6AEAE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = D56767B22999D6F600C6AEAE;
+					};
+				};
+			};
+			buildConfigurationList = D56767AE2999D6F600C6AEAE /* Build configuration list for PBXProject "Fidelity Coding Challenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D56767AA2999D6F600C6AEAE;
+			productRefGroup = D56767B42999D6F600C6AEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */,
+				D56767C72999D6F900C6AEAE /* Fidelity Coding ChallengeTests */,
+				D56767D12999D6F900C6AEAE /* Fidelity Coding ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D56767B12999D6F600C6AEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56767BE2999D6F800C6AEAE /* Preview Assets.xcassets in Resources */,
+				D56767BB2999D6F800C6AEAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56767C62999D6F900C6AEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56767D02999D6F900C6AEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D56767AF2999D6F600C6AEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56767C02999D6F800C6AEAE /* Persistence.swift in Sources */,
+				D56767C32999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld in Sources */,
+				D56767B92999D6F600C6AEAE /* ContentView.swift in Sources */,
+				D56767B72999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56767C42999D6F900C6AEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56767CD2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56767CE2999D6F900C6AEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56767D92999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITestsLaunchTests.swift in Sources */,
+				D56767D72999D6F900C6AEAE /* Fidelity_Coding_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D56767CA2999D6F900C6AEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */;
+			targetProxy = D56767C92999D6F900C6AEAE /* PBXContainerItemProxy */;
+		};
+		D56767D42999D6F900C6AEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */;
+			targetProxy = D56767D32999D6F900C6AEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D56767DA2999D6F900C6AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D56767DB2999D6F900C6AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D56767DD2999D6F900C6AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fidelity Coding Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D56767DE2999D6F900C6AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fidelity Coding Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D56767E02999D6F900C6AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fidelity Coding Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fidelity Coding Challenge";
+			};
+			name = Debug;
+		};
+		D56767E12999D6F900C6AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fidelity Coding Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fidelity Coding Challenge";
+			};
+			name = Release;
+		};
+		D56767E32999D6F900C6AEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fidelity Coding Challenge";
+			};
+			name = Debug;
+		};
+		D56767E42999D6F900C6AEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H9LF74GEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fidelity Coding Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D56767AE2999D6F600C6AEAE /* Build configuration list for PBXProject "Fidelity Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56767DA2999D6F900C6AEAE /* Debug */,
+				D56767DB2999D6F900C6AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56767DC2999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56767DD2999D6F900C6AEAE /* Debug */,
+				D56767DE2999D6F900C6AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56767DF2999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56767E02999D6F900C6AEAE /* Debug */,
+				D56767E12999D6F900C6AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56767E22999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56767E32999D6F900C6AEAE /* Debug */,
+				D56767E42999D6F900C6AEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D56767C12999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D56767C22999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodel */,
+			);
+			currentVersion = D56767C22999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodel */;
+			path = Fidelity_Coding_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D56767AB2999D6F600C6AEAE /* Project object */;
+}
