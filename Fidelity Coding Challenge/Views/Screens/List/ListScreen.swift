@@ -19,7 +19,7 @@ struct ListScreen: View {
     var body: some View {
         VStack {
             List(viewModel.cryptocurrencies) { cryptocurrency in
-                NavigationLink(destination: Text("Details")) {
+                NavigationLink(destination: DetailsScreen(viewModel: DetailsViewModel(currency: cryptocurrency))) {
                     HStack {
                         Button {
                             viewModel.favoriteButtonAction(for: cryptocurrency.id)
@@ -36,7 +36,6 @@ struct ListScreen: View {
                     }
                 }
             }
-
         }
             .onAppear {
                 viewModel.getCryptocurrencies()

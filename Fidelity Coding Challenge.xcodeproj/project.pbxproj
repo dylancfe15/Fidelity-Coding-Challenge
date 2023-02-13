@@ -25,6 +25,11 @@
 		D5676803299A169A00C6AEAE /* ListNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676802299A169A00C6AEAE /* ListNetworkManager.swift */; };
 		D567680B299A739000C6AEAE /* NetworkManaging+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567680A299A739000C6AEAE /* NetworkManaging+Extension.swift */; };
 		D5676819299A772D00C6AEAE /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676818299A772D00C6AEAE /* ConfigurationManager.swift */; };
+		D5676821299ACAEA00C6AEAE /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676820299ACAEA00C6AEAE /* DetailsScreen.swift */; };
+		D5676823299ACB1900C6AEAE /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676822299ACB1900C6AEAE /* DetailsViewModel.swift */; };
+		D5676825299ACB5700C6AEAE /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676824299ACB5700C6AEAE /* Tweet.swift */; };
+		D5676827299AD07B00C6AEAE /* DetailsNetworkManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676826299AD07B00C6AEAE /* DetailsNetworkManaging.swift */; };
+		D5676829299AD0AF00C6AEAE /* DetailsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676828299AD0AF00C6AEAE /* DetailsNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		D567680E299A759C00C6AEAE /* ProductionConfiguration.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionConfiguration.xcconfig; sourceTree = "<group>"; };
 		D5676817299A76D900C6AEAE /* Fidelity-Coding-Challenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fidelity-Coding-Challenge-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D5676818299A772D00C6AEAE /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		D5676820299ACAEA00C6AEAE /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
+		D5676822299ACB1900C6AEAE /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		D5676824299ACB5700C6AEAE /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		D5676826299AD07B00C6AEAE /* DetailsNetworkManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNetworkManaging.swift; sourceTree = "<group>"; };
+		D5676828299AD0AF00C6AEAE /* DetailsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +166,7 @@
 			children = (
 				D56767F8299A108D00C6AEAE /* Cryptocurrency.swift */,
 				D56767FE299A13BC00C6AEAE /* NetworkError.swift */,
+				D5676824299ACB5700C6AEAE /* Tweet.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				D56767F6299A103C00C6AEAE /* ListViewModel.swift */,
+				D5676822299ACB1900C6AEAE /* DetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -191,6 +203,7 @@
 			children = (
 				D56767F22999E70600C6AEAE /* Welcome */,
 				D56767F32999E71000C6AEAE /* List */,
+				D567681F299ACAC400C6AEAE /* Details */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -223,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				D5676802299A169A00C6AEAE /* ListNetworkManager.swift */,
+				D5676828299AD0AF00C6AEAE /* DetailsNetworkManager.swift */,
 			);
 			path = NetworkManagers;
 			sourceTree = "<group>";
@@ -232,6 +246,7 @@
 			children = (
 				D56767FB299A10DD00C6AEAE /* NetworkManaging.swift */,
 				D5676800299A141000C6AEAE /* ListNetworkManaging.swift */,
+				D5676826299AD07B00C6AEAE /* DetailsNetworkManaging.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -252,6 +267,14 @@
 				D56767BF2999D6F800C6AEAE /* CoreDataManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		D567681F299ACAC400C6AEAE /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D5676820299ACAEA00C6AEAE /* DetailsScreen.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,15 +408,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5676803299A169A00C6AEAE /* ListNetworkManager.swift in Sources */,
+				D5676829299AD0AF00C6AEAE /* DetailsNetworkManager.swift in Sources */,
 				D56767ED2999D90A00C6AEAE /* WelcomeScreen.swift in Sources */,
+				D5676827299AD07B00C6AEAE /* DetailsNetworkManaging.swift in Sources */,
 				D56767C02999D6F800C6AEAE /* CoreDataManager.swift in Sources */,
+				D5676825299ACB5700C6AEAE /* Tweet.swift in Sources */,
 				D56767E72999D80000C6AEAE /* Color+Extension.swift in Sources */,
+				D5676821299ACAEA00C6AEAE /* DetailsScreen.swift in Sources */,
 				D56767C32999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld in Sources */,
 				D5676801299A141000C6AEAE /* ListNetworkManaging.swift in Sources */,
 				D56767F02999DEF900C6AEAE /* PrimaryButton.swift in Sources */,
 				D56767F7299A103C00C6AEAE /* ListViewModel.swift in Sources */,
 				D5676819299A772D00C6AEAE /* ConfigurationManager.swift in Sources */,
 				D56767FC299A10DD00C6AEAE /* NetworkManaging.swift in Sources */,
+				D5676823299ACB1900C6AEAE /* DetailsViewModel.swift in Sources */,
 				D56767F9299A108D00C6AEAE /* Cryptocurrency.swift in Sources */,
 				D56767FF299A13BC00C6AEAE /* NetworkError.swift in Sources */,
 				D56767B72999D6F600C6AEAE /* Fidelity_Coding_ChallengeApp.swift in Sources */,
