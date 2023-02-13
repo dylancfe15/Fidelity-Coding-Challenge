@@ -17,6 +17,8 @@ final class ListViewModel: ObservableObject {
 
     var networkManager: ListNetworkManaging = ListNetworkManager()
 
+    // MARK: - Initializers
+
     init() {
         favoriteCryptocurrencies = Dictionary(uniqueKeysWithValues: CoreDataManager.shared.fetchFavoriteCryptocurrencies()?.map { ($0.id ?? "", $0) } ?? [])
     }
@@ -24,7 +26,7 @@ final class ListViewModel: ObservableObject {
     // MARK: - Functions
 
     func getCryptocurrencies() {
-        // TODO: - It would be better to do pagination, but I can't find the doc that
+        // TODO: - It would be better to do pagination, but I don't think this API supports that
         networkManager.getCryptocurrencies { [weak self] cryptocurrencies in
             DispatchQueue.main.async {
                 self?.cryptocurrencies = cryptocurrencies
