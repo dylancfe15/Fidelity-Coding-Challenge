@@ -39,17 +39,6 @@
                ReferencedContainer = "container:Fidelity Coding Challenge.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D56767D12999D6F900C6AEAE"
-               BuildableName = "Fidelity Coding ChallengeUITests.xctest"
-               BlueprintName = "Fidelity Coding ChallengeUITests"
-               ReferencedContainer = "container:Fidelity Coding Challenge.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

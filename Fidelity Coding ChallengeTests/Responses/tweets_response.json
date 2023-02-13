@@ -1,0 +1,15 @@
+[
+    {
+        "date": "2018-10-03T11:48:19Z",
+        "user_name": "bitcoincoreorg",
+        "user_image_link": "string",
+        "status": "Bitcoin Core 0.17.0 Released https://t.co/ciwCREngon",
+        "is_retweet": false,
+        "retweet_count": 0,
+        "like_count": 0,
+        "status_link": "string",
+        "status_id": "string",
+        "media_link": "string",
+        "youtube_link": "string"
+    }
+]

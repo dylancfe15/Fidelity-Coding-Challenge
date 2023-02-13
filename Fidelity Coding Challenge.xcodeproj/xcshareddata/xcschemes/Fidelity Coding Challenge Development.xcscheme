@@ -26,7 +26,8 @@
       buildConfiguration = "Debug Development"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO"
@@ -36,17 +37,6 @@
                BlueprintIdentifier = "D56767C72999D6F900C6AEAE"
                BuildableName = "Fidelity Coding ChallengeTests.xctest"
                BlueprintName = "Fidelity Coding ChallengeTests"
-               ReferencedContainer = "container:Fidelity Coding Challenge.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D56767D12999D6F900C6AEAE"
-               BuildableName = "Fidelity Coding ChallengeUITests.xctest"
-               BlueprintName = "Fidelity Coding ChallengeUITests"
                ReferencedContainer = "container:Fidelity Coding Challenge.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -12,10 +12,9 @@
 		D56767BE2999D6F800C6AEAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56767BD2999D6F800C6AEAE /* Preview Assets.xcassets */; };
 		D56767C02999D6F800C6AEAE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767BF2999D6F800C6AEAE /* CoreDataManager.swift */; };
 		D56767C32999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D56767C12999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld */; };
-		D56767CD2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */; };
+		D56767CD2999D6F900C6AEAE /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767CC2999D6F900C6AEAE /* ListViewModelTests.swift */; };
 		D56767E72999D80000C6AEAE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767E62999D80000C6AEAE /* Color+Extension.swift */; };
 		D56767ED2999D90A00C6AEAE /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767EC2999D90A00C6AEAE /* WelcomeScreen.swift */; };
-		D56767F02999DEF900C6AEAE /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767EF2999DEF900C6AEAE /* PrimaryButton.swift */; };
 		D56767F52999E72100C6AEAE /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767F42999E72100C6AEAE /* ListScreen.swift */; };
 		D56767F7299A103C00C6AEAE /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767F6299A103C00C6AEAE /* ListViewModel.swift */; };
 		D56767F9299A108D00C6AEAE /* Cryptocurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56767F8299A108D00C6AEAE /* Cryptocurrency.swift */; };
@@ -30,17 +29,15 @@
 		D5676825299ACB5700C6AEAE /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676824299ACB5700C6AEAE /* Tweet.swift */; };
 		D5676827299AD07B00C6AEAE /* DetailsNetworkManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676826299AD07B00C6AEAE /* DetailsNetworkManaging.swift */; };
 		D5676829299AD0AF00C6AEAE /* DetailsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676828299AD0AF00C6AEAE /* DetailsNetworkManager.swift */; };
+		D567682C299AE78500C6AEAE /* ListMockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567682B299AE78500C6AEAE /* ListMockNetworkManager.swift */; };
+		D5676830299AED6000C6AEAE /* list_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D567682F299AED6000C6AEAE /* list_response.json */; };
+		D5676832299AEEE600C6AEAE /* tweets_response.json in Resources */ = {isa = PBXBuildFile; fileRef = D5676831299AEEE600C6AEAE /* tweets_response.json */; };
+		D5676834299AEF4100C6AEAE /* DetailsMockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676833299AEF4100C6AEAE /* DetailsMockNetworkManager.swift */; };
+		D5676836299AEF9C00C6AEAE /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5676835299AEF9C00C6AEAE /* DetailsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D56767C92999D6F900C6AEAE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D56767AB2999D6F600C6AEAE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D56767B22999D6F600C6AEAE;
-			remoteInfo = "Fidelity Coding Challenge";
-		};
-		D56767D32999D6F900C6AEAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D56767AB2999D6F600C6AEAE /* Project object */;
 			proxyType = 1;
@@ -57,11 +54,9 @@
 		D56767BF2999D6F800C6AEAE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		D56767C22999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fidelity_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
 		D56767C82999D6F900C6AEAE /* Fidelity Coding ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidelity Coding ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fidelity_Coding_ChallengeTests.swift; sourceTree = "<group>"; };
-		D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fidelity Coding ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56767CC2999D6F900C6AEAE /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 		D56767E62999D80000C6AEAE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		D56767EC2999D90A00C6AEAE /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
-		D56767EF2999DEF900C6AEAE /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		D56767F42999E72100C6AEAE /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
 		D56767F6299A103C00C6AEAE /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		D56767F8299A108D00C6AEAE /* Cryptocurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptocurrency.swift; sourceTree = "<group>"; };
@@ -79,6 +74,11 @@
 		D5676824299ACB5700C6AEAE /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		D5676826299AD07B00C6AEAE /* DetailsNetworkManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNetworkManaging.swift; sourceTree = "<group>"; };
 		D5676828299AD0AF00C6AEAE /* DetailsNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsNetworkManager.swift; sourceTree = "<group>"; };
+		D567682B299AE78500C6AEAE /* ListMockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMockNetworkManager.swift; sourceTree = "<group>"; };
+		D567682F299AED6000C6AEAE /* list_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = list_response.json; sourceTree = "<group>"; };
+		D5676831299AEEE600C6AEAE /* tweets_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tweets_response.json; sourceTree = "<group>"; };
+		D5676833299AEF4100C6AEAE /* DetailsMockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsMockNetworkManager.swift; sourceTree = "<group>"; };
+		D5676835299AEF9C00C6AEAE /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +90,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D56767C52999D6F900C6AEAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D56767CF2999D6F900C6AEAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -120,7 +113,6 @@
 			children = (
 				D56767B32999D6F600C6AEAE /* Fidelity Coding Challenge.app */,
 				D56767C82999D6F900C6AEAE /* Fidelity Coding ChallengeTests.xctest */,
-				D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,7 +148,9 @@
 		D56767CB2999D6F900C6AEAE /* Fidelity Coding ChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				D56767CC2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift */,
+				D567682E299AECB300C6AEAE /* Responses */,
+				D567682A299AE76A00C6AEAE /* Tests */,
+				D567682D299AE78D00C6AEAE /* MockNetworkManagers */,
 			);
 			path = "Fidelity Coding ChallengeTests";
 			sourceTree = "<group>";
@@ -183,7 +177,6 @@
 		D56767E92999D8E100C6AEAE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D56767EE2999DEBD00C6AEAE /* ReusableViews */,
 				D56767EB2999D8FC00C6AEAE /* Screens */,
 			);
 			path = Views;
@@ -206,14 +199,6 @@
 				D567681F299ACAC400C6AEAE /* Details */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		D56767EE2999DEBD00C6AEAE /* ReusableViews */ = {
-			isa = PBXGroup;
-			children = (
-				D56767EF2999DEF900C6AEAE /* PrimaryButton.swift */,
-			);
-			path = ReusableViews;
 			sourceTree = "<group>";
 		};
 		D56767F22999E70600C6AEAE /* Welcome */ = {
@@ -277,6 +262,33 @@
 			path = Details;
 			sourceTree = "<group>";
 		};
+		D567682A299AE76A00C6AEAE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D56767CC2999D6F900C6AEAE /* ListViewModelTests.swift */,
+				D5676835299AEF9C00C6AEAE /* DetailsViewModelTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D567682D299AE78D00C6AEAE /* MockNetworkManagers */ = {
+			isa = PBXGroup;
+			children = (
+				D567682B299AE78500C6AEAE /* ListMockNetworkManager.swift */,
+				D5676833299AEF4100C6AEAE /* DetailsMockNetworkManager.swift */,
+			);
+			path = MockNetworkManagers;
+			sourceTree = "<group>";
+		};
+		D567682E299AECB300C6AEAE /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				D567682F299AED6000C6AEAE /* list_response.json */,
+				D5676831299AEEE600C6AEAE /* tweets_response.json */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -315,24 +327,6 @@
 			productReference = D56767C82999D6F900C6AEAE /* Fidelity Coding ChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D56767D12999D6F900C6AEAE /* Fidelity Coding ChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D56767E22999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding ChallengeUITests" */;
-			buildPhases = (
-				D56767CE2999D6F900C6AEAE /* Sources */,
-				D56767CF2999D6F900C6AEAE /* Frameworks */,
-				D56767D02999D6F900C6AEAE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D56767D42999D6F900C6AEAE /* PBXTargetDependency */,
-			);
-			name = "Fidelity Coding ChallengeUITests";
-			productName = "Fidelity Coding ChallengeUITests";
-			productReference = D56767D22999D6F900C6AEAE /* Fidelity Coding ChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -347,10 +341,6 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					D56767C72999D6F900C6AEAE = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = D56767B22999D6F600C6AEAE;
-					};
-					D56767D12999D6F900C6AEAE = {
 						CreatedOnToolsVersion = 14.0.1;
 						TestTargetID = D56767B22999D6F600C6AEAE;
 					};
@@ -371,7 +361,6 @@
 			targets = (
 				D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */,
 				D56767C72999D6F900C6AEAE /* Fidelity Coding ChallengeTests */,
-				D56767D12999D6F900C6AEAE /* Fidelity Coding ChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -390,13 +379,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D56767D02999D6F900C6AEAE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D5676832299AEEE600C6AEAE /* tweets_response.json in Resources */,
+				D5676830299AED6000C6AEAE /* list_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +401,6 @@
 				D5676821299ACAEA00C6AEAE /* DetailsScreen.swift in Sources */,
 				D56767C32999D6F800C6AEAE /* Fidelity_Coding_Challenge.xcdatamodeld in Sources */,
 				D5676801299A141000C6AEAE /* ListNetworkManaging.swift in Sources */,
-				D56767F02999DEF900C6AEAE /* PrimaryButton.swift in Sources */,
 				D56767F7299A103C00C6AEAE /* ListViewModel.swift in Sources */,
 				D5676819299A772D00C6AEAE /* ConfigurationManager.swift in Sources */,
 				D56767FC299A10DD00C6AEAE /* NetworkManaging.swift in Sources */,
@@ -434,14 +417,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56767CD2999D6F900C6AEAE /* Fidelity_Coding_ChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D56767CE2999D6F900C6AEAE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D567682C299AE78500C6AEAE /* ListMockNetworkManager.swift in Sources */,
+				D56767CD2999D6F900C6AEAE /* ListViewModelTests.swift in Sources */,
+				D5676834299AEF4100C6AEAE /* DetailsMockNetworkManager.swift in Sources */,
+				D5676836299AEF9C00C6AEAE /* DetailsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,16 +432,12 @@
 			target = D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */;
 			targetProxy = D56767C92999D6F900C6AEAE /* PBXContainerItemProxy */;
 		};
-		D56767D42999D6F900C6AEAE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D56767B22999D6F600C6AEAE /* Fidelity Coding Challenge */;
-			targetProxy = D56767D32999D6F900C6AEAE /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D56767DA2999D6F900C6AEAE /* Debug Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680E299A759C00C6AEAE /* ProductionConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -523,6 +498,7 @@
 		};
 		D56767DB2999D6F900C6AEAE /* Release Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680E299A759C00C6AEAE /* ProductionConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -557,6 +533,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -641,6 +618,7 @@
 		};
 		D56767E02999D6F900C6AEAE /* Debug Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680E299A759C00C6AEAE /* ProductionConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,6 +639,7 @@
 		};
 		D56767E12999D6F900C6AEAE /* Release Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680E299A759C00C6AEAE /* ProductionConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -679,44 +658,9 @@
 			};
 			name = "Release Production";
 		};
-		D56767E32999D6F900C6AEAE /* Debug Production */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5H9LF74GEN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fidelity Coding Challenge";
-			};
-			name = "Debug Production";
-		};
-		D56767E42999D6F900C6AEAE /* Release Production */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5H9LF74GEN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fidelity Coding Challenge";
-			};
-			name = "Release Production";
-		};
 		D567680F299A761500C6AEAE /* Debug Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680C299A74FA00C6AEAE /* DevelopmentConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -809,6 +753,7 @@
 		};
 		D5676811299A761500C6AEAE /* Debug Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680C299A74FA00C6AEAE /* DevelopmentConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -827,26 +772,9 @@
 			};
 			name = "Debug Development";
 		};
-		D5676812299A761500C6AEAE /* Debug Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5H9LF74GEN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fidelity Coding Challenge";
-			};
-			name = "Debug Development";
-		};
 		D5676813299A761F00C6AEAE /* Release Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680C299A74FA00C6AEAE /* DevelopmentConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -881,6 +809,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -933,6 +862,7 @@
 		};
 		D5676815299A761F00C6AEAE /* Release Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D567680C299A74FA00C6AEAE /* DevelopmentConfiguration.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -948,24 +878,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fidelity Coding Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fidelity Coding Challenge";
-			};
-			name = "Release Development";
-		};
-		D5676816299A761F00C6AEAE /* Release Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5H9LF74GEN;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Difeng-Chen.Fidelity-Coding-ChallengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Fidelity Coding Challenge";
 			};
 			name = "Release Development";
 		};
@@ -1001,17 +913,6 @@
 				D5676811299A761500C6AEAE /* Debug Development */,
 				D56767E12999D6F900C6AEAE /* Release Production */,
 				D5676815299A761F00C6AEAE /* Release Development */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Production";
-		};
-		D56767E22999D6F900C6AEAE /* Build configuration list for PBXNativeTarget "Fidelity Coding ChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D56767E32999D6F900C6AEAE /* Debug Production */,
-				D5676812299A761500C6AEAE /* Debug Development */,
-				D56767E42999D6F900C6AEAE /* Release Production */,
-				D5676816299A761F00C6AEAE /* Release Development */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "Release Production";

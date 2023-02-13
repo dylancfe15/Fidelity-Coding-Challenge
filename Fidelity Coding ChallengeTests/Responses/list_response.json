@@ -1,0 +1,67 @@
+[
+    {
+        "id": "btc-bitcoin",
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "rank": 1,
+        "circulating_supply": 19290019,
+        "total_supply": 19290019,
+        "max_supply": 21000000,
+        "beta_value": 0.98472,
+        "first_data_at": "2010-07-17T00:00:00Z",
+        "last_updated": "2023-02-13T22:09:29Z",
+        "quotes": {
+            "USD": {
+                "price": 21633.517339246995,
+                "volume_24h": 20743918356.110287,
+                "volume_24h_change_24h": 35.94,
+                "market_cap": 417310960511,
+                "market_cap_change_24h": -0.86,
+                "percent_change_15m": 0.02,
+                "percent_change_30m": 0.04,
+                "percent_change_1h": -0.08,
+                "percent_change_6h": 0.02,
+                "percent_change_12h": 0.1,
+                "percent_change_24h": -0.86,
+                "percent_change_7d": -5.47,
+                "percent_change_30d": 3.43,
+                "percent_change_1y": -49.01,
+                "ath_price": 68692.137036932,
+                "ath_date": "2021-11-10T16:51:15Z",
+                "percent_from_price_ath": -68.51
+            }
+        }
+    }, {
+        "id": "eth-ethereum",
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "rank": 2,
+        "circulating_supply": 122373866,
+        "total_supply": 122373866,
+        "max_supply": 0,
+        "beta_value": 1.29932,
+        "first_data_at": "2015-08-07T00:00:00Z",
+        "last_updated": "2023-02-13T22:09:29Z",
+        "quotes": {
+            "USD": {
+                "price": 1486.7049665827808,
+                "volume_24h": 7428517546.52325,
+                "volume_24h_change_24h": 88.62,
+                "market_cap": 181933834362,
+                "market_cap_change_24h": -1.94,
+                "percent_change_15m": 0.01,
+                "percent_change_30m": 0.09,
+                "percent_change_1h": -0.09,
+                "percent_change_6h": 0.08,
+                "percent_change_12h": 0.16,
+                "percent_change_24h": -1.94,
+                "percent_change_7d": -8.84,
+                "percent_change_30d": -4.27,
+                "percent_change_1y": -49.2,
+                "ath_price": 4864.1131966142,
+                "ath_date": "2021-11-10T16:06:16Z",
+                "percent_from_price_ath": -69.44
+            }
+        }
+    }
+]
