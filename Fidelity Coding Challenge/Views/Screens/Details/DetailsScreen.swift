@@ -36,7 +36,7 @@ struct DetailsScreen: View {
 
                         Spacer()
 
-                        Image("twitter")
+                        Image(name: .twitter)
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 20, height: 20)

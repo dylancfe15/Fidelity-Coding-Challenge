@@ -20,7 +20,7 @@ struct WelcomeScreen: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Image("welcome_background")
+                Image(name: .welcome_background)
                     .resizable()
                     .frame(width: 600, height: 600)
                     .offset(CGSize(width: 0, height: backgroundOffsetY))
@@ -83,7 +83,7 @@ struct WelcomeScreen: View {
             Text("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,")
                 .fontWeight(.ultraLight)
 
-            Image("shake_hand")
+            Image(name: .shake_hand)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
         }
