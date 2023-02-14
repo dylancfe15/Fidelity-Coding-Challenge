@@ -13,20 +13,35 @@ struct WelcomeScreen: View {
 
     @State private var selectedPage = 0
     @State private var isListNavigationLinkActive = false
+    @State private var backgroundOffsetY = 700
 
     // MARK: - Views
 
     var body: some View {
         NavigationStack {
-            VStack {
-                TabView(selection: $selectedPage) {
-                    tabOne
-                    tabTwo
-                }
-                    .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
-                    .tabViewStyle(PageTabViewStyle())
+            ZStack {
+                Image("welcome_background")
+                    .resizable()
+                    .frame(width: 600, height: 600)
+                    .offset(CGSize(width: 0, height: backgroundOffsetY))
 
-                Spacer()
+                VStack {
+                    TabView(selection: $selectedPage) {
+                        tabOne
+                        tabTwo
+                    }
+                        .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+                        .tabViewStyle(PageTabViewStyle())
+                        .onChange(of: selectedPage) { newValue in
+                            withAnimation {
+                                backgroundOffsetY = selectedPage == 0 ? 400 : 700
+                            }
+                        }
+
+                    Spacer()
+                }
+                    .padding()
+                    .frame(width: UIScreen.main.bounds.width)
             }
                 .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
                 .padding()
@@ -38,6 +53,11 @@ struct WelcomeScreen: View {
                         startButton
                     }
                         .opacity(selectedPage == 1 ? 1 : 0)
+                }
+                .onAppear {
+                    withAnimation {
+                        backgroundOffsetY = selectedPage == 0 ? 400 : 700
+                    }
                 }
         }
     }
@@ -62,6 +82,10 @@ struct WelcomeScreen: View {
 
             Text("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,")
                 .fontWeight(.ultraLight)
+
+            Image("shake_hand")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
         }
             .tag(1)
     }

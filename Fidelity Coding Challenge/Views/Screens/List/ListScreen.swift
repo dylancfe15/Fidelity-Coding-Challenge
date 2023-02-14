@@ -12,7 +12,6 @@ struct ListScreen: View {
     // MARK: - Properties
 
     @StateObject private var viewModel = ListViewModel()
-    @Environment(\.managedObjectContext) var context
 
     // MARK: - Views
 
@@ -32,10 +31,23 @@ struct ListScreen: View {
                             .buttonStyle(PlainButtonStyle())
                             .frame(width: 30, height: 30)
 
-                        Text(cryptocurrency.name ?? "N/A")
+                        VStack(alignment: .leading) {
+                            if let name = cryptocurrency.name {
+                                Text(name)
+                                    .bold()
+                            }
+
+                            if let price = cryptocurrency.quotes?.USD?.price {
+                                Text("$\(price)")
+                                    .foregroundColor(.gray)
+                            }
+                        }
                     }
                 }
             }
+                .refreshable {
+                    viewModel.getCryptocurrencies()
+                }
         }
             .onAppear {
                 viewModel.getCryptocurrencies()
