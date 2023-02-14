@@ -13,7 +13,8 @@ struct WelcomeScreen: View {
 
     @State private var selectedPage = 0
     @State private var isListNavigationLinkActive = false
-    @State private var backgroundOffsetY = 700
+    @State private var backgroundOffsetY = 450
+    @State private var backgroundOpacity = 0.0
 
     // MARK: - Views
 
@@ -24,6 +25,7 @@ struct WelcomeScreen: View {
                     .resizable()
                     .frame(width: 600, height: 600)
                     .offset(CGSize(width: 0, height: backgroundOffsetY))
+                    .opacity(backgroundOpacity)
 
                 VStack {
                     TabView(selection: $selectedPage) {
@@ -34,7 +36,8 @@ struct WelcomeScreen: View {
                         .tabViewStyle(PageTabViewStyle())
                         .onChange(of: selectedPage) { newValue in
                             withAnimation {
-                                backgroundOffsetY = selectedPage == 0 ? 400 : 700
+                                backgroundOffsetY = selectedPage == 0 ? 400 : 450
+                                backgroundOpacity = selectedPage == 0 ? 1 : 0
                             }
                         }
 
@@ -56,7 +59,8 @@ struct WelcomeScreen: View {
                 }
                 .onAppear {
                     withAnimation {
-                        backgroundOffsetY = selectedPage == 0 ? 400 : 700
+                        backgroundOffsetY = selectedPage == 0 ? 400 : 450
+                        backgroundOpacity = selectedPage == 0 ? 1 : 0
                     }
                 }
         }
